@@ -15,8 +15,43 @@ img {
   margin-bottom: 32px;
 }
 
-.plants {
+.images {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 52px;
+}
+
+.barberry {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-left: 200px;
+}
+
+.chilli {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.pepper {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.saffron {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 200px;
+}
+
+.text {
+  display: flex;
+  align-items: center;
 }
 
 /* do not edit this footer */
