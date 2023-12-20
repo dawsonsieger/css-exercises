@@ -26,6 +26,25 @@ input {
   margin-bottom: 16px;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 2px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  background: #eee;
+}
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+}
+
 ul {
   list-style-type: none;
 }
